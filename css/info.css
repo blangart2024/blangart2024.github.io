@@ -92,7 +92,7 @@ hr {
 }
 
 .infocontainer {
-    width: auto;
+    max-width: 95vw;
     height: auto;
     margin: auto;
     place-content: center;
