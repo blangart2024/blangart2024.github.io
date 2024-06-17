@@ -11,7 +11,8 @@
     font-size: 16px;
     /*color: #fff;*/
     color: white;
-    border-bottom: 0px; /*20px solid #fdb347*/
+    /*border-bottom: 0px;*/
+    border-bottom: 20px solid #fdb347;
 
     background-image: url('./banner.jpg');
     background-position: center;
