@@ -66,26 +66,17 @@ hr {
 }
 
 .infobox {
-    height: 95%;
-    width: 50%;
-    padding-top: 1.25%;
-    padding-bottom: 1.25%;
-    padding-right: 1.25%;
+    max-width: 90vw;
+    height: auto;
+    padding-top: 1.25vh;
+    padding-bottom: 1.25vh;
+    padding-right: 1.25vw;
     text-align: center;
-    align-content: center;
+    place-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.picdisplay {
-    /*
-    display: block;
-    max-width: 50vw;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5vw;
-    border: 1vw solid brown;
-        */
-}
 
 .piccontainer {
     height: 95%;
@@ -101,11 +92,11 @@ hr {
 }
 
 .infocontainer {
-    height: auto;
     width: auto;
-    margin-left: 1%;
-    margin-top: 1.25%;
-    margin-bottom: 1.25%;
+    height: auto;
+    margin: auto;
+    place-content: center;
+    text-align: center;
 }
 
 .addtocart {
