@@ -355,10 +355,10 @@ function addNavElem(className, text, htmlFile) {
 function setHeader() {
     var header = document.getElementById("header");
     header.innerHTML = headerHTML2;
-    var navigation = document.getElementById("navigation");
-    navigation.innerHTML += addNavElem("navhome", "Home", "main");
-    navigation.innerHTML += addNavElem("navcontact", "Contact Information", "main");
-    navigation.innerHTML += addNavElem("navabout", "About", "main");
+   // var navigation = document.getElementById("navigation");
+    //navigation.innerHTML += addNavElem("navhome", "Home", "main");
+    //navigation.innerHTML += addNavElem("navcontact", "Contact Information", "main");
+    //navigation.innerHTML += addNavElem("navabout", "About", "main");
     //navigation.innerHTML += addNavElem("navcart", "Shopping Cart", "cart");
 
 
