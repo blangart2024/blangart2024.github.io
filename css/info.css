@@ -110,8 +110,8 @@ hr {
 
 .inquiry {
     border-radius: 30px;
+    max-width: 95vw;
     height: auto;
-    width: auto;
     text-align: center;
 }
 label {
