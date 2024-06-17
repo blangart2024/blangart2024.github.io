@@ -11,7 +11,8 @@
     padding: 10px;
     font-size: 16px;
     color: white;
-    border-bottom: 0px; /*20px solid #fdb347*/
+    /*border-bottom: 0px;*/
+    border-bottom: 20px solid #fdb347;
 
     background-image: url('banner.jpg');
     background-position: center;
@@ -74,11 +75,23 @@ hr {
     align-content: center;
 }
 
+.picdisplay {
+    /*
+    display: block;
+    max-width: 50vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vw;
+    border: 1vw solid brown;
+        */
+}
+
 .piccontainer {
     height: 95%;
     width: 98%;
     margin-left: 1%;
-    margin-top: 1.25%;
+    margin-top: a;
     margin-bottom: 1.25%;
     /*background-color: #1e22e1;
     -webkit-box-shadow: inset 0 0 40px 20px blanchedalmond;
@@ -116,6 +129,16 @@ label {
 }
 
 .artimage {
+    max-width: 95vw;
+    max-height: 90vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    place-content: center;
+    padding: 5vh 2.5vw 5vh 2.5vw;
+    background-color: #783f04;
+    -webkit-box-shadow: inset 0 0 40px 20px blanchedalmond;
+    box-shadow: inset 0 0 40px 20px blanchedalmond;
+    /*
     max-height: 90%;
     max-width: 90%;
     width: auto;
@@ -123,6 +146,7 @@ label {
     margin-top: auto;
     margin-bottom: auto;
     place-content: center;
+        */
 }
 
 .artimage:hover {

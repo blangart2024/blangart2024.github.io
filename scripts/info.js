@@ -68,35 +68,18 @@ function windowResize() {
     console.log("Resizing...");
 }
 window.onload = function () {
-    /*
-    console.log("(INFO)cur Src: " + curExamSrc);
-    document.getElementById("artimage").src = curExamSrc;
-    let height = window.innerHeight - (document.getElementById("header").offsetHeight + document.getElementById("footer").offsetHeight + breakLineMargin + examMarginTop);
-    document.getElementById("bottom-line").style.marginTop = breakLineMargin / 2 + "px";
-    document.getElementById("bottom-line").style.marginBottom = breakLineMargin / 2 + "px";
-    document.getElementById("examinebox").style.marginTop = examMarginTop + "px";
-    document.getElementById("examinebox").style.height = height + "px";
-    */
+
     document.getElementById("artimage").src = sessionStorage.getItem('bobartsrc');
     imgSrc = sessionStorage.getItem('bobartsrc');
-    /*document.getElementById("magimageview").src = sessionStorage.getItem('bobartsrc');*/
-    var aVar = JSON.parse(sessionStorage.getItem('aJsonData'));
-    console.log("Title: " + aVar.name);
-    console.log("medium: " + aVar.medium);
-    console.log("width: " + aVar.dims[0].width);
-    console.log("height: " + aVar.dims[0].height);
+    //var aVar = JSON.parse(sessionStorage.getItem('aJsonData'));
 
     setPieceInfo(sessionStorage.getItem('aJsonData'));
 
     let height = 675;/*window.innerHeight - (document.getElementById("header").offsetHeight + document.getElementById("footer").offsetHeight + breakLineMargin + examMarginTop);*/
-    document.getElementById("bottom-line").style.marginTop = breakLineMargin / 2 + "px";
-    document.getElementById("bottom-line").style.marginBottom = breakLineMargin / 2 + "px";
-    document.getElementById("examinebox").style.marginTop = examMarginTop + "px";
-    document.getElementById("examinebox").style.height = height + "px";
-    //document.getElementById("magview").style.height = document.getElementById("infobox").clientHeight * magRelScale + "px";
-    //document.getElementById("magview").style.width = document.getElementById("infobox").clientWidth * magRelScale + "px";
-
-    //document.getElementById("header").innerHTML = headerHTML;
+   // document.getElementById("bottom-line").style.marginTop = breakLineMargin / 2 + "px";
+    //document.getElementById("bottom-line").style.marginBottom = breakLineMargin / 2 + "px";
+   // document.getElementById("examinebox").style.marginTop = examMarginTop + "px";
+   // document.getElementById("examinebox").style.height = height + "px";
     setHeader();
 
 }
