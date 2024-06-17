@@ -1,0 +1,253 @@
+﻿body {
+    margin: 0;
+    font-family: Arial;
+    background-color: blanchedalmond;
+    /*comp color  #fdb347*/
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    /*color: #fff;*/
+    color: white;
+    border-bottom: 0px; /*20px solid #fdb347*/
+
+    background-image: url('./banner.jpg');
+    background-position: center;
+    background-size: auto;
+}
+
+.titleheader {
+    cursor: pointer;
+}
+
+.navigation {
+    background-color: #fdb347;
+    display: flex;
+    /* padding: 15px 50px 15px 50px;*/
+    /*text-align: center;*/
+    justify-content: center;
+}
+
+.navitem {
+    margin: 0px 50px 0px 50px;
+    padding: 0px 15px 0px 15px;
+    color: #0245A8;
+    text-decoration: wavy;
+    font-style: italic;
+    /*border-radius: 5px;*/
+
+}
+
+.navitem:hover {
+    color: #4791FD;
+    cursor: pointer; 
+    text-decoration: underline;
+
+}
+
+/*
+.webItems {
+    min-height: 75px;
+    background-color: #fdb347;
+}
+
+.webItemSelection {
+    vertical-align: central;
+    padding-left: 15px;
+    padding-top: 20px;
+    text-align: left;
+    color: #4791FD;
+    text-transform: uppercase;
+}
+
+.webItemSelection a:link {
+    color: #4791FD;
+}
+*/
+.welcomeheader, .extrainfo {
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    width: 95%;
+}
+
+.extrainfo {
+    padding-top: 10px;
+}
+
+.browsemess {
+    margin: auto;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 30%;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1800px;
+    margin: 0 auto;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.catalog img {
+    width: 100%;
+    max-width: 350px;
+    object-fit: cover;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.mask {
+    position: fixed;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.0;
+    z-index: -1;
+}
+
+.examine {
+    position: fixed;
+    background-color: black;
+    height: 75%;
+    width: 75%;
+    opacity: 0.0;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    padding: 0px 20px 35px 20px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.examine img{
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+
+
+.examine h4 {
+    color: antiquewhite;
+    text-align: center;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.interestedlink {
+    margin: 0px;
+    text-align: center;
+    padding-top: 5px;
+    color: aquamarine;
+}
+
+.closeExam {
+    margin: 0px;
+    text-align: right;
+    padding-top: 5px;
+    color: #ffffff;
+}
+
+.closeExam:hover{
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.interestedlink:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+a:link {
+    color: aquamarine;
+}
+
+a:visited {
+    color:aquamarine;
+}
+
+a:hover {
+    color:blue;
+}
+
+.inquiry {
+    position: fixed;
+    background-color: darkslategrey;
+    border-radius: 30px;
+    height: auto;
+    width: auto;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.inquiry h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.inquiry form {
+    margin: 0 auto;
+    /*
+    max-width: 500px;
+    max-height: 500px;
+    width: 60vw;
+        */
+    height: auto;
+    width: auto;
+    /*padding: 0 0 2em 0;*/
+}
+
+    .inquiry label {
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+.inquiry fieldset {
+    border: none;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+.inquiry fieldset:last-of-type {
+    border-bottom: none;
+}
+
+    .inquiry textarea, select {
+        margin: 10px 0 0 0;
+        width: auto;
+        min-height: 2em;
+    }
+
+    .inquiry button {
+        font-size: 16px;
+        margin:auto;
+        float: none;
+    }
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 16px;
+}

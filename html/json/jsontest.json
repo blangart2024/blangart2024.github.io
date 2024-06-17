@@ -1,0 +1,311 @@
+{
+  "artpieces": [
+    {
+      "name": "Name of Piece 1",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 6,
+          "height": 4
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 1000.00,
+              "available": 1
+            }
+          ],
+          "prints": [
+            {
+              "0": 10.00,
+              "1": 20.00,
+              "2": 50.00
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "A Long Name of the Second",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 7,
+          "height": 5
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 2000,
+              "available": 2
+            }
+          ],
+          "prints": [
+            {
+              "0": 10.01,
+              "1": 20.01,
+              "2": 50.01
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "A Longer Name of the Third Art Piece",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 8,
+          "height": 6
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 3000,
+              "available": 3
+            }
+          ],
+          "prints": [
+            {
+              "0": 10.03,
+              "1": 20.03,
+              "2": 50.03
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "A Very Long Exceptional Name of the fourth Piece",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 10,
+          "height": 8
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 4000,
+              "available": 4
+            }
+          ],
+          "prints": [
+            {
+              "0": 10.04,
+              "1": 20.04,
+              "2": 50.04
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Short Name",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 11,
+          "height": 9
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 5000,
+              "available": 5
+            }
+          ],
+          "prints": [
+            {
+              "0": 50,
+              "1": 20,
+              "2": 50
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "p1",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 6,
+          "height": 4
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 1000,
+              "available": 1
+            }
+          ],
+          "prints": [
+            {
+              "0": 10,
+              "1": 20,
+              "2": 50
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "p1",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 6,
+          "height": 4
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 1000,
+              "available": 1
+            }
+          ],
+          "prints": [
+            {
+              "0": 10,
+              "1": 20,
+              "2": 50
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "p1",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 6,
+          "height": 4
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 1000,
+              "available": 1
+            }
+          ],
+          "prints": [
+            {
+              "0": 10,
+              "1": 20,
+              "2": 50
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "p1",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 6,
+          "height": 4
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 1000,
+              "available": 1
+            }
+          ],
+          "prints": [
+            {
+              "0": 10,
+              "1": 20,
+              "2": 50
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "p1",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 6,
+          "height": 4
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 1000,
+              "available": 1
+            }
+          ],
+          "prints": [
+            {
+              "0": 10,
+              "1": 20,
+              "2": 50
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "p1",
+      "medium": "oil",
+      "dims": [
+        {
+          "width": 6,
+          "height": 4
+        }
+      ],
+      "prodvers": [
+        {
+          "original": [
+            {
+              "price": 1000,
+              "available": 1
+            }
+          ],
+          "prints": [
+            {
+              "0": 10,
+              "1": 20,
+              "2": 50
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
