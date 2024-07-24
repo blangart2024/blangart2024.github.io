@@ -92,7 +92,7 @@ hr {
 }
 
 .infocontainer {
-    max-width: 95%;
+    max-width: 95vw;
     height: auto;
     margin: auto;
     place-content: center;
@@ -110,7 +110,7 @@ hr {
 
 .inquiry {
     border-radius: 30px;
-    max-width: 95%;
+    max-width: 95vw;
     height: auto;
     text-align: center;
 }
