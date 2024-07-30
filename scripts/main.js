@@ -33,104 +33,21 @@ const artTitles = [
 var aJsonData = {
     "artpieces": [
         {
-            "name": "Name of Piece 1",
-            "medium": "oil",
+            "name": "Nature's Beauty",
+            "medium": "Oil on canvas",
             "dims": [
                 {
-                    "width": 6,
-                    "height": 4
+                    "depth": 0.625,
+                    "width": 24,
+                    "height": 32
                 }
             ],
             "prodvers": [
                 {
                     "original": [
                         {
-                            "price": 1000.00,
+                            "price": 300.00,
                             "available": 1
-                        }
-                    ],
-                    "prints": [
-                        {
-                            "0": 10.00,
-                            "1": 20.00,
-                            "2": 50.00
-                        }
-                    ]
-                }
-            ]
-        },
-
-        {
-            "name": "A Long Name of the Second",
-            "medium": "oil",
-            "dims": [
-                {
-                    "width": 7,
-                    "height": 5
-                }
-            ],
-            "prodvers": [
-                {
-                    "original": [
-                        {
-                            "price": 2000,
-                            "available": 2
-                        }
-                    ],
-                    "prints": [
-                        {
-                            "0": 10.01,
-                            "1": 20.01,
-                            "2": 50.01
-                        }
-                    ]
-                }
-            ]
-        },
-
-        {
-            "name": "A Longer Name of the Third Art Piece",
-            "medium": "oil",
-            "dims": [
-                {
-                    "width": 8,
-                    "height": 6
-                }
-            ],
-            "prodvers": [
-                {
-                    "original": [
-                        {
-                            "price": 3000,
-                            "available": 3
-                        }
-                    ],
-                    "prints": [
-                        {
-                            "0": 10.03,
-                            "1": 20.03,
-                            "2": 50.03
-                        }
-                    ]
-                }
-            ]
-        },
-
-        {
-            "name": "A Very Long Exceptional Name of the fourth Piece",
-            "medium": "oil",
-            "dims": [
-                {
-                    "width": 10,
-                    "height": 8
-                }
-            ],
-            "prodvers": [
-                {
-                    "original": [
-                        {
-                            "price": 4000,
-                            "available": 4
                         }
                     ],
                     "prints": [
@@ -145,20 +62,224 @@ var aJsonData = {
         },
 
         {
-            "name": "Short Name",
-            "medium": "oil",
+            "name": "Picklemen",
+            "medium": "Oil on canvas",
             "dims": [
                 {
-                    "width": 11,
-                    "height": 9
+                    "depth": 1.5,
+                    "width": 20,
+                    "height": 30
                 }
             ],
             "prodvers": [
                 {
                     "original": [
                         {
-                            "price": 5000,
-                            "available": 5
+                            "price": 250.00,
+                            "available": 1
+                        }
+                    ],
+                    "prints": [
+                        {
+                            "0": 10,
+                            "1": 20,
+                            "2": 50
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Hillside",
+            "medium": "Oil on canvas",
+            "dims": [
+                {
+                    "depth": 0.75,
+                    "width": 30,
+                    "height": 24
+                }
+            ],
+            "prodvers": [
+                {
+                    "original": [
+                        {
+                            "price": 200.00,
+                            "available": 1
+                        }
+                    ],
+                    "prints": [
+                        {
+                            "0": 10.03,
+                            "1": 20.03,
+                            "2": 50.03
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Neptunian Dance",
+            "medium": "Oil on canvas",
+            "dims": [
+                {
+                    "depth": 0.75,
+                    "width": 24,
+                    "height": 28
+                }
+            ],
+            "prodvers": [
+                {
+                    "original": [
+                        {
+                            "price": 150.00,
+                            "available": 1
+                        }
+                    ],
+                    "prints": [
+                        {
+                            "0": 10.01,
+                            "1": 20.01,
+                            "2": 50.01
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Grassy Meadow",
+            "medium": "Oil on canvas",
+            "dims": [
+                {
+                    "depth": 0.75,
+                    "width": 24,
+                    "height": 30
+                }
+            ],
+            "prodvers": [
+                {
+                    "original": [
+                        {
+                            "price": 175.00,
+                            "available": 1
+                        }
+                    ],
+                    "prints": [
+                        {
+                            "0": 50,
+                            "1": 20,
+                            "2": 50
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Persephone",
+            "medium": "Oil on canvas",
+            "dims": [
+                {
+                    "depth": 0.625,
+                    "width": 18,
+                    "height": 24
+                }
+            ],
+            "prodvers": [
+                {
+                    "original": [
+                        {
+                            "price": 200.00,
+                            "available": 1
+                        }
+                    ],
+                    "prints": [
+                        {
+                            "0": 10,
+                            "1": 20,
+                            "2": 50
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Vesuvius",
+            "medium": "oil",
+            "dims": [
+                {
+                    "depth": 0.75,
+                    "width": 24,
+                    "height": 36
+                }
+            ],
+            "prodvers": [
+                {
+                    "original": [
+                        {
+                            "price": 1000,
+                            "available": 1
+                        }
+                    ],
+                    "prints": [
+                        {
+                            "0": 10,
+                            "1": 20,
+                            "2": 50
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Melting Lilly",
+            "medium": "Oil on canvas",
+            "dims": [
+                {
+                    "depth": 0.75,
+                    "width": 22,
+                    "height": 29
+                }
+            ],
+            "prodvers": [
+                {
+                    "original": [
+                        {
+                            "price": 175.00,
+                            "available": 1
+                        }
+                    ],
+                    "prints": [
+                        {
+                            "0": 50,
+                            "1": 20,
+                            "2": 50
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Gottlieb",
+            "medium": "Oil on canvas",
+            "dims": [
+                {
+                    "depth": 0.75,
+                    "width": 20,
+                    "height": 24
+                }
+            ],
+            "prodvers": [
+                {
+                    "original": [
+                        {
+                            "price": 175.00,
+                            "available": 1
                         }
                     ],
                     "prints": [
@@ -177,6 +298,7 @@ var aJsonData = {
             "medium": "oil",
             "dims": [
                 {
+                    "depth": 0.75,
                     "width": 6,
                     "height": 4
                 }
@@ -205,118 +327,7 @@ var aJsonData = {
             "medium": "oil",
             "dims": [
                 {
-                    "width": 6,
-                    "height": 4
-                }
-            ],
-            "prodvers": [
-                {
-                    "original": [
-                        {
-                            "price": 1000,
-                            "available": 1
-                        }
-                    ],
-                    "prints": [
-                        {
-                            "0": 10,
-                            "1": 20,
-                            "2": 50
-                        }
-                    ]
-                }
-            ]
-        },
-
-        {
-            "name": "p1",
-            "medium": "oil",
-            "dims": [
-                {
-                    "width": 6,
-                    "height": 4
-                }
-            ],
-            "prodvers": [
-                {
-                    "original": [
-                        {
-                            "price": 1000,
-                            "available": 1
-                        }
-                    ],
-                    "prints": [
-                        {
-                            "0": 10,
-                            "1": 20,
-                            "2": 50
-                        }
-                    ]
-                }
-            ]
-        },
-
-        {
-            "name": "p1",
-            "medium": "oil",
-            "dims": [
-                {
-                    "width": 6,
-                    "height": 4
-                }
-            ],
-            "prodvers": [
-                {
-                    "original": [
-                        {
-                            "price": 1000,
-                            "available": 1
-                        }
-                    ],
-                    "prints": [
-                        {
-                            "0": 10,
-                            "1": 20,
-                            "2": 50
-                        }
-                    ]
-                }
-            ]
-        },
-
-        {
-            "name": "p1",
-            "medium": "oil",
-            "dims": [
-                {
-                    "width": 6,
-                    "height": 4
-                }
-            ],
-            "prodvers": [
-                {
-                    "original": [
-                        {
-                            "price": 1000,
-                            "available": 1
-                        }
-                    ],
-                    "prints": [
-                        {
-                            "0": 10,
-                            "1": 20,
-                            "2": 50
-                        }
-                    ]
-                }
-            ]
-        },
-
-        {
-            "name": "p1",
-            "medium": "oil",
-            "dims": [
-                {
+                    "depth": 0.75,
                     "width": 6,
                     "height": 4
                 }

@@ -54,9 +54,10 @@ function setPieceInfo(data) {
     var med = document.getElementById("med");
     var price = document.getElementById("price");
     title.innerHTML = "'" + jData.name + "'";
-    dims.innerHTML = "Dimensions(inches) &lt; " + jData.dims[0].width + " &times; " + jData.dims[0].height + " &gt;";
+    // dims.innerHTML = "Dimensions(inches) &lt; " + jData.dims[0].width + " &times; " + jData.dims[0].height + " &gt;";
+    dims.innerHTML = "Dimensions(inches): " + jData.dims[0].width + " &times; " + jData.dims[0].height + " &times; " + jData.dims[0].depth;
     med.innerHTML = "Type: " + jData.medium;
-    price.innerHTML = "$" + prices[0] + ".00";
+    price.innerHTML = "$" + jData.prodvers[0].original[0].price + ".00";//"$" + prices[0] + ".00";
 
 
 }
