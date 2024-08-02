@@ -12,103 +12,104 @@
 <body>
     <div class="fullimgview" id="fullimgview">
         <div class="exitfullimgview" id="exitfullimgview" onclick="closeFullView()"><i>return</i></div>
-        <img class="fullimg" id="fullimg" src="" />
+        <!--<img class="fullimg" id="fullimg" src="" />-->
     </div>
+    <img class="fullimg" id="fullimg" src="" onclick="clickedArt_Close()" />
     <main>
         <div class="closeexamine" id="closeexamine"></div>
         <header class="header" id="header" onclick="clickedHeader()">
             <h1>Bob Lang Art</h1>
         </header>
         <!--<section class="infosection" id="infosection">
-        <div class="examinebox" id="examinebox">
-            <div class="picbox" id="picbox">
-                <div class="piccontainer" id="piccontainer">
-                    <img class="artimage" id="artimage" src="" onload="onImgLoad()" onclick="clickedArt_info()" />
+            <div class="examinebox" id="examinebox">
+                <div class="picbox" id="picbox">
+                    <div class="piccontainer" id="piccontainer">
+                        <img class="artimage" id="artimage" src="" onload="onImgLoad()" onclick="clickedArt_info()" />
+                    </div>
                 </div>
-            </div>
-            <div class="seperator" id="seperator"><div class="sepline" id="sepline"></div></div>
-            <div class="infobox" id="infobox">
-                <div class="infocontainer" id="infocontainer">
-                    <h1 class="piecetitle" id="piecetitle"></h1>
-                    <p class="dims" id="dims"></p>
-                    <p class="med" id="med"></p>
-                    <p id="price" class="price"></p>
-                    <div id="inquiry" class="inquiry">
-                        <h1>Interested? Please Let us know</h1>
-                        <form method="post" action="https://api.web3forms.com/submit">
-                            <input type="hidden" name="access_key" value="da9442c9-462b-4f69-872c-0ad17ec3c9db" />
-                            <input type="hidden" name="from_name" value="Art Inquiry" />
-                            <input type="hidden" name="redirect" value="https://web3forms.com/success" />
-                            <fieldset required>
-                                <label for="name">What is your name?<br /><input required id="name" type="text" name="name" /></label>
-                                <label for="email">What is your email?<br /><input required id="email" type="text" name="email" /></label>
-                                <label for="referrer">
-                                    How did you discover Bob's art?<br />
-                                    <select id="referrer" name="referrer">
-                                        <option value="">(select one)</option>
-                                        <option value="i know bob">I know Bob personally</option>
-                                        <option value="from friends/family">Friends/Family</option>
-                                        <option value="facebook">Facebook</option>
-                                        <option value="other">Other</option>
-                                    </select>
-                                </label>
-                                <label for="message">
-                                    Anything you want to add?<br />
-                                    <textarea placeholder="Hello Bob. Im interested in your art piece..." id="message" rows="8" cols="60" name="message"></textarea>
-                                </label>
-                                <button id="submit" type="submit" value="Submit" onclick="submitInquiry()">Submit</button>
-                            </fieldset>
-                        </form>
+                <div class="seperator" id="seperator"><div class="sepline" id="sepline"></div></div>
+                <div class="infobox" id="infobox">
+                    <div class="infocontainer" id="infocontainer">
+                        <h1 class="piecetitle" id="piecetitle"></h1>
+                        <p class="dims" id="dims"></p>
+                        <p class="med" id="med"></p>
+                        <p id="price" class="price"></p>
+                        <div id="inquiry" class="inquiry">
+                            <h1>Interested? Please Let us know</h1>
+                            <form method="post" action="https://api.web3forms.com/submit">
+                                <input type="hidden" name="access_key" value="da9442c9-462b-4f69-872c-0ad17ec3c9db" />
+                                <input type="hidden" name="from_name" value="Art Inquiry" />
+                                <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                                <fieldset required>
+                                    <label for="name">What is your name?<br /><input required id="name" type="text" name="name" /></label>
+                                    <label for="email">What is your email?<br /><input required id="email" type="text" name="email" /></label>
+                                    <label for="referrer">
+                                        How did you discover Bob's art?<br />
+                                        <select id="referrer" name="referrer">
+                                            <option value="">(select one)</option>
+                                            <option value="i know bob">I know Bob personally</option>
+                                            <option value="from friends/family">Friends/Family</option>
+                                            <option value="facebook">Facebook</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </label>
+                                    <label for="message">
+                                        Anything you want to add?<br />
+                                        <textarea placeholder="Hello Bob. Im interested in your art piece..." id="message" rows="8" cols="60" name="message"></textarea>
+                                    </label>
+                                    <button id="submit" type="submit" value="Submit" onclick="submitInquiry()">Submit</button>
+                                </fieldset>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-        -->
+        </section>
+            -->
         <section id="infosection" class="infosection">
             <div id="picdisplay" class="picdisplay">
                 <img class="artimage" id="artimage" src="" onclick="clickedArt_info()" />
             </div>
-                <div class="infocontainer" id="infocontainer">
-                    <h1 class="piecetitle" id="piecetitle"></h1>
-                    <p class="dims" id="dims"></p>
-                    <p class="med" id="med"></p>
-                    <p id="price" class="price"></p>
-                    <div id="inquiry" class="inquiry">
-                        <h1>Interested? Please Let us know</h1>
-                        <form method="post" action="https://api.web3forms.com/submit">
-                            <input type="hidden" name="access_key" value="da9442c9-462b-4f69-872c-0ad17ec3c9db" />
-                            <input type="hidden" name="from_name" value="Art Inquiry" />
-                            <input type="hidden" name="redirect" value="https://web3forms.com/success" />
-                            <fieldset required>
-                                <label for="name">What is your name?<br /><input required id="name" type="text" name="name" /></label>
-                                <label for="email">What is your email?<br /><input required id="email" type="text" name="email" /></label>
-                                <label for="referrer">
-                                    How did you discover Bob's art?<br />
-                                    <select id="referrer" name="referrer">
-                                        <option value="">(select one)</option>
-                                        <option value="i know bob">I know Bob personally</option>
-                                        <option value="from friends/family">Friends/Family</option>
-                                        <option value="facebook">Facebook</option>
-                                        <option value="other">Other</option>
-                                    </select>
-                                </label>
-                                <label for="message">
-                                    Anything you want to add?<br />
-                                    <textarea placeholder="Hello Bob. Im interested in your art piece..." id="message" rows="8" cols="60" name="message"></textarea>
-                                </label>
-                                <button id="submit" type="submit" value="Submit" onclick="submitInquiry()">Submit</button>
-                            </fieldset>
-                        </form>
-                    </div>
+            <div class="infocontainer" id="infocontainer">
+                <h1 class="piecetitle" id="piecetitle"></h1>
+                <p class="dims" id="dims"></p>
+                <p class="med" id="med"></p>
+                <p id="price" class="price"></p>
+                <div id="inquiry" class="inquiry">
+                    <h1>Interested? Please Let us know</h1>
+                    <form method="post" action="https://api.web3forms.com/submit">
+                        <input type="hidden" name="access_key" value="138a329d-77ec-486c-9c98-32c7da899235" />
+                        <input type="hidden" name="from_name" value="Art Inquiry" />
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                        <fieldset required>
+                            <label for="name">What is your name?<br /><input required id="name" type="text" name="name" /></label>
+                            <label for="email">What is your email?<br /><input required id="email" type="text" name="email" /></label>
+                            <label for="referrer">
+                                How did you discover Bob's art?<br />
+                                <select id="referrer" name="referrer">
+                                    <option value="">(select one)</option>
+                                    <option value="i know bob">I know Bob personally</option>
+                                    <option value="from friends/family">Friends/Family</option>
+                                    <option value="facebook">Facebook</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </label>
+                            <label for="message">
+                                Anything you want to add?<br />
+                                <textarea placeholder="Hello Bob. Im interested in your art piece..." id="message" rows="8" cols="60" name="message"></textarea>
+                            </label>
+                            <input id="formPicID" type="hidden" name="pictureID" value="PictureID" />
+                            <button id="submit" type="submit" value="Submit" onclick="submitInquiry()">Submit</button>
+                        </fieldset>
+                    </form>
                 </div>
+            </div>
         </section>
     </main>
     <a href="..\html\main.html" class="returnbutton">return</a>
     <hr class="bottom-line" id="bottom-line" />
     <footer id="footer">
-        <p>copyright &copy; - <u>boblangart.com</u></p>
-        <p class="address">2934 Hero Drive - City, State 1234</p>
+        <p>copyright &copy; - <u>Blangart</u></p>
     </footer>
 </body>
 </html>
