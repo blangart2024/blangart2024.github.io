@@ -11,7 +11,7 @@ var imgSrc = "";
 
 function clickedArt_info() {
     document.getElementById("fullimg").src = imgSrc;
-    document.getElementById("fullimgview").style.display = "block";
+   // document.getElementById("fullimgview").style.display = "block";
     document.getElementById("sepline").style.display = "none";
 }
 
@@ -19,6 +19,12 @@ function closeFullView() {
     document.getElementById("fullimgview").style.display = "none";
     document.getElementById("sepline").style.display = "block";
 }
+
+function clickedArt_Close() {
+    document.getElementById("fullimg").src = "";
+    document.getElementById("sepline").style.display = "block";
+}
+
 function mouseExitsArt() {
     var cExam = document.getElementById("closeexamine");
     cExam.style.opacity = 0.0;
@@ -54,9 +60,15 @@ function setPieceInfo(data) {
     var med = document.getElementById("med");
     var price = document.getElementById("price");
     title.innerHTML = "'" + jData.name + "'";
-    dims.innerHTML = "Dimensions(inches) &lt; " + jData.dims[0].width + " &times; " + jData.dims[0].height + " &gt;";
+    // dims.innerHTML = "Dimensions(inches) &lt; " + jData.dims[0].width + " &times; " + jData.dims[0].height + " &gt;";
+    dims.innerHTML = "Dimensions(inches): " + jData.dims[0].width + " &times; " + jData.dims[0].height + " &times; " + jData.dims[0].depth;
     med.innerHTML = "Type: " + jData.medium;
-    price.innerHTML = "$" + prices[0] + ".00";
+    if (jData.prodvers[0].original[0].price == "AS") {
+        price.innerHTML = "Available Soon!";
+    }
+    else {
+        price.innerHTML = "$" + jData.prodvers[0].original[0].price;//"$" + prices[0] + ".00";
+    }
 
 
 }
