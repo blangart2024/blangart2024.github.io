@@ -92,7 +92,7 @@ hr {
 }
 
 .infocontainer {
-    max-width: 95%;
+    max-width: 95vw;
     height: auto;
     margin: auto;
     place-content: center;
@@ -110,7 +110,7 @@ hr {
 
 .inquiry {
     border-radius: 30px;
-    max-width: 95%;
+    max-width: 95vw;
     height: auto;
     text-align: center;
 }
@@ -180,8 +180,8 @@ label {
     position: absolute;
     background-color: rgba(0,0,0,0.4);
     margin: auto;
-    height: auto;
-    width: auto;
+   /*left: 50%;
+    top: 50%;*/
     display: none;
 }
 
@@ -202,6 +202,19 @@ label {
         text-decoration: underline;
         border: 1px solid rgba(0.0, 0.0, 0.0, 1.0);
     }
+
+.fullimg {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.fullimg:hover {
+    cursor: zoom-out;
+}
 
 
 
